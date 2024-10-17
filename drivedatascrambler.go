@@ -167,8 +167,6 @@ func main() {
 			os.Exit(1)
 		}
 
-		// chucksMapFilePath := os.Args[4]
-
 		chuckPairs := putFirstAndLastChuckPairsInFront(shuffleChuckPairs(
 			createChuckPairs(chuckSize, driveSize)))
 
